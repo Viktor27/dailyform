@@ -1,0 +1,149 @@
+body{
+	font: 400 14px/1.3 Arial, sans-serif;
+	background: url(../img/mainbg.jpg) no-repeat 100%;
+	background-size: cover;
+}
+html,body {
+	min-height: 100%;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+a {
+	text-decoration: none;
+	color: #ea355a;
+}
+a:hover {
+	color: fuchsia;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	border: none;
+	outline: none;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background: #DE2477;
+	color: #1D1D1D;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	display: inline-block;
+	border-radius: 4px;
+	background-color:  #f0f0f0;
+	color: #797b7f;;
+	border: none;
+	outline: none;
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	outline: 1px solid #EE3B52;
+	color: #EE3B52;
+}
+textarea {
+
+}
+/* Layout */
+.ba-container{
+	padding-top: 40px;
+	max-width: 461px;
+}
+.ba-login {
+	padding: 30px;
+	border-radius: 4px;
+	background-color:  #ffffff;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.ba-login__header {
+	margin-bottom: 31px;
+	background: url(../img/icon.png) no-repeat ;
+}
+.ba-login__header--head {
+	display: inline-block;
+	text-align: left;
+	margin: 0;
+	padding-left: 30px;
+	text-align: center;
+	color: #1b1c1d;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+.ba-login__header--description {
+	display: inline-block;
+	text-align: left;
+	color:  #797b7f;
+	font-size: 13px;
+	font-weight: 400;
+	margin: 0;
+	line-height: 1.5;
+}
+.ba-login__name {
+	margin-bottom: 15px;
+}
+.ba-login__fname {
+	width: 48.2%;
+	padding: 13px 0 13px 13px ;
+	float: left;
+	margin-right:14px;
+}
+.ba-login__lname {
+	width: 48.2%;
+	padding: 13px 0 13px 13px;
+	float: left;
+}
+.ba-login__mail {
+	width: 100%;
+	padding: 13px 0 13px 13px;
+	margin-bottom: 15px;
+}
+.ba-login__password {
+	width: 100%;
+	padding: 13px 0 13px 13px;
+	margin-bottom: 13px;
+}
+.ba-login__submit {
+	background-color: #ea355a;
+	box-shadow: 0px 3px 0px 0px #bd1962;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	width: 100%;
+	min-height: 50px;
+	margin-bottom: 24px;
+}
+.ba-login__foot {
+	font-size: 12px;
+	color: #797b7f;
+	margin: 0;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
